@@ -1,0 +1,242 @@
+@media all and (max-width:800px) {
+
+    * { margin: 0px; padding:0px;}
+
+    body{ 
+        font-size: 10pt;
+        color: #333;
+    
+    }
+    header {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 130px;
+        margin: 0 auto;
+
+    }
+    /*헤더 상단 1행 전체 시작------------------*/
+    .header_box_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 200px;
+        background: #121212;
+        
+    }
+        /*헤더 상단 1행 global left------------------*/   
+        .header_box_all > .header_box_01 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 100px;
+            line-height: 50px;
+            top: 10px;
+            
+        }
+
+        #header_box_01_up {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 30px;
+
+        }
+            #sec_global {
+                position: relative;
+                float: left;
+                width: 170px;
+                height: 30px;
+                line-height: 30px;
+                
+
+            }
+                select {
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 20px;
+                    
+                    
+                }
+                option {
+                    width: 50px;
+                    height: 30px;
+
+                }
+            #ins_all {
+                display: none;
+                /*position: relative;
+                float: left;
+                width: 170px;
+                height: 30px;*/
+            }
+            .m_menu_wrap {
+                display: block;
+                position: relative;
+                float: right;
+                width: 40px;
+                height: 40px;               
+                justify-content: center;
+                align-items: center;
+                transition: all 2s;
+                cursor: pointer;
+            }
+                .m_menu.open {
+                    display: none;
+                    transition: all 2s;
+                    transform: translateY(0px);
+                }
+                .m_menu {
+                    position: relative;
+                    display: flex;
+                    flex-flow:row wrap;
+                    width: 340px;
+                    height: 120px;
+                    background: rgba(28, 28, 26, 0.9);
+                    z-index: 3;
+                    transform: translateY(30px);
+                    transition: all 2s;
+                }
+                
+                    .m_shop {
+                        position: relative;
+                        clear: both;
+                        width: 340px;
+                        height: 30px;
+                        line-height: 30px;
+                        color: #fff;
+                        font-size: 0.8rem;
+                    }
+                        .m_shop:hover {
+                            cursor: pointer;
+                            border-bottom: 1px solid #fff;
+                        }
+            #header_box_01_down {
+                display: none;
+            }        
+        /*헤더 상단 1행 logo-center------------------*/
+        .header_box_all > .header_box_02 {
+            position: absolute;
+            clear: both;
+            width: 340px;
+            height: 80px;
+            
+        }        
+        /*헤더 상단 1행 회원가입 right------------------*/
+        .header_box_all > .header_box_03 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 25px;
+            color: white;
+            background: rgb(14, 13, 13);
+        }
+            #header_box_03_up {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 30px;
+            }
+            #text_join, #text_id, #text_basket, #text_mypage {
+                position: relative;
+                float: left;
+                width: 85px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                font-size: 8pt;
+                cursor: pointer;
+            }
+            #text_join:hover, #text_id:hover, #text_basket:hover, #text_mypage:hover  {
+                color: #ddd;
+                cursor: pointer;
+            }
+        #header_box_03_down {
+            display: none;
+        }  
+    /*여백삭제-----------------------*/
+        .gap_1400_10 {
+            display: none;
+        }
+        .main_menu_all {
+            display: none;
+        }
+        /*----------------root 경로 시작-------------------*/    
+        .path_all {
+            position: relative;
+            width: 340px;
+            height: 50px;
+            background:#fff;
+            margin: 0 auto;
+        }
+            #path_01 {
+                position: absolute;
+                width: 340px;
+                height: 50px;
+                color: #121212;
+                line-height: 50px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        .pro_top_all {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: auto;
+            
+        }
+            .top_box_01 {
+                position: absolute;
+                display: flex;
+                width: 100%;
+                height: auto;
+               
+                
+}
+                .main_wrap{
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                    height: 700px;
+                    clear: both;
+                    background: rgb(222, 166, 166);
+                    margin: 0 auto;
+                    justify-content: center;
+
+                }   
+                .main_p_img_m {
+                    display: block;
+                    position: relative;
+                    width: 340px;
+                    height: 600px;
+                }
+                #next_m{
+                    display: flex;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    top:260px;
+                    right: 0px;
+                    background: #121212;
+                }
+                
+                .main_p_small {
+                    display: none;
+                }
+                    .main_p_img {
+                        display: none;
+                    }
+            .top_box_02 {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: auto;
+                clear: both;
+                background: yellow;
+            }
+    
+    footer {
+        display: none;
+    }
+}
