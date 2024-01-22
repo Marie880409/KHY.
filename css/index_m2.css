@@ -1,0 +1,492 @@
+@media all and (max-width:800px) {
+
+    * { margin: 0px; padding:0px;}
+
+    body{ 
+        font-size: 10pt;
+        color: #333;
+    
+    }
+    header {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 130px;
+        margin: 0 auto;
+
+    }
+    /*헤더 상단 1행 전체 시작------------------*/
+    .header_box_all {
+        position: relative;
+        clear: both;
+        width: 340px;
+        height: 200px;
+        background: #121212;
+        
+    }
+        /*헤더 상단 1행 global left------------------*/   
+        .header_box_all > .header_box_01 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 100px;
+            line-height: 50px;
+            top: 10px;
+            
+        }
+
+        #header_box_01_up {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 30px;
+
+        }
+            #sec_global {
+                position: relative;
+                float: left;
+                width: 170px;
+                height: 30px;
+                line-height: 30px;
+                
+
+            }
+                select {
+                    position: relative;
+                    float: left;
+                    width: 100px;
+                    height: 20px;
+                    
+                    
+                }
+                option {
+                    width: 50px;
+                    height: 30px;
+
+                }
+            #ins_all {
+                display: none;
+                /*position: relative;
+                float: left;
+                width: 170px;
+                height: 30px;*/
+            }
+            .m_menu_wrap {
+                display: block;
+                position: relative;
+                float: right;
+                width: 40px;
+                height: 40px;               
+                justify-content: center;
+                align-items: center;
+                transition: all 2s;
+                cursor: pointer;
+            }
+                .m_menu.open {
+                    display: none;
+                    transition: all 2s;
+                    transform: translateY(0px);
+                }
+                .m_menu {
+                    position: relative;
+                    display: flex;
+                    flex-flow:row wrap;
+                    width: 340px;
+                    height: 120px;
+                    background: rgba(28, 28, 26, 0.9);
+                    z-index: 3;
+                    transform: translateY(30px);
+                    transition: all 2s;
+                }
+                
+                    .m_shop {
+                        position: relative;
+                        clear: both;
+                        width: 340px;
+                        height: 30px;
+                        line-height: 30px;
+                        color: #fff;
+                        font-size: 0.8rem;
+                    }
+                        .m_shop:hover {
+                            cursor: pointer;
+                            border-bottom: 1px solid #fff;
+                        }
+            #header_box_01_down {
+                display: none;
+            }        
+        /*헤더 상단 1행 logo-center------------------*/
+        .header_box_all > .header_box_02 {
+            position: absolute;
+            clear: both;
+            width: 340px;
+            height: 80px;
+            
+        }        
+        /*헤더 상단 1행 회원가입 right------------------*/
+        .header_box_all > .header_box_03 {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 25px;
+            color: white;
+            background: rgb(14, 13, 13);
+        }
+            #header_box_03_up {
+                position: relative;
+                clear: both;
+                width: 340px;
+                height: 30px;
+            }
+            #text_join, #text_id, #text_basket, #text_mypage {
+                position: relative;
+                float: left;
+                width: 85px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                font-size: 8pt;
+                cursor: pointer;
+            }
+            #text_join:hover, #text_id:hover, #text_basket:hover, #text_mypage:hover  {
+                color: #ddd;
+                cursor: pointer;
+            }
+        #header_box_03_down {
+            display: none;
+        }  
+    /*여백삭제-----------------------*/
+        .gap_1400_10 {
+            display: none;
+        }
+        .main_menu_all {
+            display: none;
+        }
+    /*메인 메뉴 9개 시작 -----------------------*/    
+        /*.main_menu_all {
+            display: flex;
+            flex-flow: row wrap;
+            width: 340px;
+            height: 90px;
+            margin: 0 auto;
+        }
+            .main_menu_all #menu_each {
+                width: 110px;
+            }
+            #menu_01_over:hover {
+                content: url(../img/main_menu_01_02p.jpg);
+            }*/
+    /*-여백 삭제 -----------------------*/     
+        .gap_1400_10 {
+            display: none;
+        }
+    /*-메인 이미지 시작 -----------------------*/
+        .main_img_all {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 340px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+            .main_img_big {
+                display: none;
+            }
+            .main_img_small {
+                display: block;
+                position: absolute;
+                left: 0px;
+                top:0px;
+                width:340px;
+                height: 340px;
+                margin-top: 10px;
+                z-index: 2;
+                
+               -webkit-animation-direction: 2s;
+                -webkit-animation-name: m_01;
+                -webkit-animation-iteration-count: 1;
+            }
+            @-webkit-keyframes m_01 {
+                0% {left: 50px; top:50px; opacity: 50%;}
+                100%{left:0px; top:0px; opacity: 100%;}
+            }
+            
+    /*-------------------상단 이미지 4개------------------*/  
+        
+        
+        section.sec_01_all {
+            position: relative;
+            clear: both;
+            width: 340px;
+            height: 1400px;
+            overflow: hidden;
+            margin: 0 auto;
+           
+        }
+            .sec_01_all > .sec_01_box_all {
+                display: flex;
+                flex-flow: column nowrap;
+                width: 340px;
+                height: 1400px;
+               
+            }
+                .sec_01_box_all > #sec_01_box_each {
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 340px;
+                    height: 340px;
+                    margin-bottom: 20px;
+                    
+                }
+                #sec_01_box_each > #sec_01_box_img {
+                    width: 340px;
+                    height: 280px;
+                }
+                #sec_01_box_each > #sec_01_font_01 {
+                    width: 340px;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 1.2rem;
+                }
+                #sec_01_box_each > #sec_01_font_02 {
+                    width: 340px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 0.9rem;
+                }
+
+                .sec_02_all {
+                position: relative;
+                clear: both;
+                width: 350px;
+                height: 700px;
+                overflow: hidden;
+                margin: 0 auto;
+                
+            }
+                .title_weekly {
+                    width: 350px;
+                    height: 100px;
+                    color: #fff;
+                }
+                .pick_all {
+                    position: relative;
+                    width: 1400px;
+                    height: 550px;
+                    overflow: hidden;
+                }
+
+                    .khy_pick {
+                        position: relative;
+                        width: 350px;
+                        height: 550px;
+                    }
+                    .khy_pick > #pick_pc {
+                        display: none;
+                    }
+                    .khy_pick > #pick_m {
+                        display: block;
+                    }
+                    .khy_text_01, .khy_text_02{
+                        position: relative;
+                        width: 350px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        padding-left: 30px;
+                        color: #000;
+                        
+                    }
+            /*-------------------new release------------------*/       
+            .sec_03_all {
+                position: relative;
+                clear: both;
+                width: 100%;
+                height: 500px;
+                overflow: hidden;
+                margin: 0 auto;
+                
+            }
+                .title_weekly2 {
+                    width: 350px;
+                    height: 100px;
+                    margin: 0 auto;
+                    color: #fff;
+
+                }
+                .khy_release {
+                    position: relative;
+                    width: 100%;
+                    height: 800px;
+    
+                }
+                        .ser_pc {
+                            display: none;
+                        }
+                        .new_pc {
+                            display: none;
+                        }
+                        .new_mb {
+                            display: block;
+                        }
+                        .drop003_all {
+                            display: none;
+                        }
+            /*------------------------- 베스트 셀러-----------------------------*/
+                .sec_04_all {
+                    position: relative;
+                    clear: both;
+                    width: 100%;
+                    height: 800px;
+                    margin: 0 auto;
+                    
+                }
+                
+                .best_all {
+                    position: relative;
+                    display: grid;
+                    width: 480px;
+                    height: 400px;
+                    margin: 0 auto;
+                    
+                }   
+                .best_best{
+                    display: flex;
+                    flex-flow: row nowrap;
+                }    
+                
+                
+                .arrow_m_right {
+                        width: 40px;
+                        height: 400px;
+                        line-height: 400px;
+                        
+                    }
+                    .arrow_m_left {
+                        width: 40px;
+                        height: 400px;
+                        line-height: 400px;
+                        transform: scaleX(-1);
+                        
+                    }    
+ 
+                    
+                    .best_all_m {
+                        position: relative;
+                        grid-template-areas: 
+                        "aa bb"
+                        "aa cc"
+                        ;
+                    grid-template-rows: 200px 200px;
+                    grid-template-columns: 200px 200px;
+                        display: grid;
+                        width: 400px;
+                        height: 400px;
+                    }
+                        .best_01 {
+                            position: relative;
+                            display: grid;
+                            grid-area: aa;
+                            background: pink;
+                        }
+                        .best_02 {
+                            position: relative;
+                            display: grid;
+                            grid-area: bb;
+                            background: yellow;
+                        }
+                        .best_03 {
+                            position: relative;
+                            display: grid;
+                            grid-area: cc;
+                        }
+                    .best_group {
+                        display: none;
+                    }
+    /*------------------------- ABOUT -----------------------------*/
+            .sec_05_all {
+                position: relative;
+                clear: both;
+                width:100%;
+                margin: 0 auto;
+                height: 500px;
+            }
+                .about_us {
+                    position: relative;
+                    width: 100%;
+                    height: 500px;
+                    justify-content: center;
+                   
+                }
+                    .about_all {
+                        position: relative;
+                        display: flex;
+                        top: 140px;
+                        width: 400px;
+                        height: 300px;
+                        
+                    }
+                        #aboutkhy {
+                            font-size: 1.3rem;
+                        }
+                        #abouttext {
+                            font-size: 0.9rem;
+                        }
+        /*------------------------- footer -----------------------------*/                
+        
+        footer {
+            position: relative;
+            width: 100%;
+            height: 800px;
+            
+        }
+            .top{
+                width: 100%;
+                
+            }
+                .left_top {
+                    position: relative;
+                    display: flex;
+                    width: 500px;
+                    height: 500px;
+                    top: 30px;
+                    
+                    
+                }
+                    .foot_tp {
+                        width: 400px;
+                        height: 50px;
+                        margin-top: 30px;
+                    }
+                    .subs {
+                        width: 400px;
+                        height: 400px;
+                    }
+                    .submit {
+                        position:absolute;
+                        top: 470px;
+                        left: 40px;
+                        
+                    }
+                .center_top, .right_top {
+                    display: none;
+                }
+            .bottom {
+                width: 100%;
+                height: 100px;
+                position: relative;
+                flex-flow: row wrap;
+            }
+                .left_bottom {
+                    display: flex;
+                    width: 100%;
+                    height: 100px;
+                    
+                }
+                    #allright {
+                        text-align: center;
+                    }
+                .right_bottom {
+                   display: none;
+                }
+}
