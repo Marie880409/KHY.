@@ -183,7 +183,7 @@
             position: relative;
             display: flex;
             width: 100%;
-            height: auto;
+            height: 1650px;
             
         }
             .top_box_01 {
@@ -191,26 +191,44 @@
                 display: flex;
                 width: 100%;
                 height: auto;
-               
                 
-}
-                .main_wrap{
+            }
+                .main_wrap2{
                     position: relative;
                     display: flex;
                     width: 100%;
                     height: 700px;
                     clear: both;
-                    background: rgb(222, 166, 166);
+
                     margin: 0 auto;
                     justify-content: center;
 
+                }
+                .main_mb_warp {
+                    position: absolute;
+                    clear: both;
+                    width: 340px;
+                    height: 700px;
                 }   
                 .main_p_img_m {
-                    display: block;
-                    position: relative;
+                    display: flex;
                     width: 340px;
                     height: 600px;
                 }
+                .deet_all {
+                    position: relative;
+                    width: 340px;
+                    height: 100px;
+                    align-items: center;
+                    background: #ddd;
+                }
+                    .deet {
+                        position: relative;
+                        width: 100px;
+                        height: 100px;
+                        float: left;
+                        margin-left: 10px;
+                    }
                 #next_m{
                     display: flex;
                     position: absolute;
@@ -228,15 +246,204 @@
                         display: none;
                     }
             .top_box_02 {
-                position: relative;
-                display: block;
+                position: absolute;
                 width: 100%;
                 height: auto;
+                top: 800px;
+                
+                padding: 0;
+                
+            }   #ment_01 {
+                position: relative;
                 clear: both;
-                background: yellow;
+                width: 350px;
+                height: 50px;
+                line-height: 50px;
+                margin: 0 auto;
+                font-size: 2rem;
+                text-align: center;
+                
             }
+                #ment_02 {
+                    position: relative;
+                    width: 200px;
+                    height: 40px;
+                    margin-top: 30pt;
+                    padding: 0;
+                    margin: 0 auto;
+                    margin-top: 90px;
+                }
+                #ment_03, .ment_line {
+                display: none;
+            }
+                
+                #ment_04 {
+                    position: relative;
+                    clear: both;
+                    width: 350px;
+                    height: 150px;
+                    margin: 0 auto;
+                    margin-top: 40px;
+                    
+                }   
+                    .ment_04_item {
+                        display: flex;
+                        width: 100px;
+                        height: 150px;
+                        background: white;
+                    }
+                    .ment_04_item > img {
+                        width: 100px;
+                        height: 100px;
+                        margin-top: 25px;
+                        
+                    }
+                    .ment_04_text {
+                        display: flex;
+                        width: 250px;
+                        height: 150px;
+                        
+                    }
+                        .ment_04_top {
+                            display: flex;
+                            flex-flow: row wrap;
+                            width: 250px;
+                            height: 70px;
+                            background: rgb(243, 241, 238);
+                        }   
+                            #ment_04_01 {
+                                display: flex;
+                                width: 250px;
+                                height: 35px;
+                                line-height: 35px;
+                                padding-left: 10px;
+                                font-size: 0.9rem;
+                                margin: 0;
+                            }
+
+                            #ment_04_02 {
+                                display: flex;
+                                justify-content: left;
+                                width: 250px;
+                                height: 35px;
+                                font-size: 0.75rem;
+                                line-height: 35px;
+                                padding-left: 10px;
+                            }
+                        .ment_04_mid {
+                            display: flex;
+                            width: 250px;
+                            height: 30px;
+                            
+                        }
+                            .mcolor {
+                                width: 15px;
+                                height: 15px;
+                                margin: 7px;
+                            }
+                        .ment_04_bottom {
+                            display: flex;
+                            width: 250px;
+                            height: 50px;
+                            background: rgb(243, 241, 238);
+                        }    
+
+
+                    
+                
     
+    /*------------------------- footer -----------------------------*/                
+        
     footer {
-        display: none;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 600px;
+        background: url(../img/lookbook.jpg);
+        background-position: center;
+        background-position-x: -600px;
+        background-repeat: no-repeat;
     }
+    .foot_info {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 600px;
+        
+    }
+        .top{
+            width: 100%;
+            display: flex;
+            height: 570px;
+            
+        }
+            .left_top {
+                position: relative;
+                display: flex;
+                width: 500px;
+                height: 500px;
+                flex-flow: row wrap;
+                
+            }   .foot_logo {
+                position: relative;
+                
+                width: 150px;
+                height: 90px;
+                
+            }
+                .foot_tp {
+                    width: 300px;
+                    height: 50px;
+                    line-height: 20px;
+                    font-size: 1rem;
+                
+                }
+                #email {
+                    width: 250px;
+                }
+                .subs {
+                    width: 250px;
+                    height: 250px;
+                    font-size: 1rem;
+                    
+                }
+                .submit {
+                    position:relative;
+                    display: flex;
+                    top: -30px;
+                    font-size: 1rem;
+                    text-align: center;
+                    line-height: 40px;
+                    width: 200px;
+                    height: 40px;
+                    justify-content: center;
+                   
+                    
+                }
+                #subs_txt {
+                    color: white;
+                }
+            .center_top, .right_top {
+                display: none;
+            }
+        .bottom {
+            width: 100%;
+            height: 100px;
+            position: relative;
+            flex-flow: row wrap;
+            background: #ddd;
+        }
+            .left_bottom {
+                display: flex;
+                width: 100%;
+                height: 100px;
+                
+            }
+                #allright {
+                    text-align: center;
+                }
+            .right_bottom {
+               display: none;
+            }
 }
