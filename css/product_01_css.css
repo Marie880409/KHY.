@@ -215,6 +215,11 @@
                     font-size: 0.9rem;
                     background: #ddd;
                 }
+                #select_box {
+                    font-size: 14px;
+                    padding-left: 7px;
+                   
+                }
     
                     select > option {
                         font-size: 1rem;
