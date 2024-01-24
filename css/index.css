@@ -383,7 +383,7 @@ header {
                         width: 350px;
                         height: 438px;
                     }
-                        .khy_pick > #pick_m {
+                        #pick_m {
                             display: none;
                         }
                     .khy_text_01 {
